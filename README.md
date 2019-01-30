@@ -6,8 +6,8 @@ Input:
 two fileles: data and labels. The data is a comma separated matrix of size n x m. Here the data points are the rows, not the columns. The labels" is an array of size n. The labels can only take the values 1,2,3.
 
 Output: 
- A comma separated file containing the n x 2 matrix of the reduced data.
- A comma separated file containing the two vectors v1; v2 as a matrix of size 2 x m.
+ A comma separated file containing the n x 2 matrix of the reduced data.
+ A comma separated file containing the two vectors v1; v2 as a matrix of size 2 x m.
 
 Programs: 
 Read the files for the matrices Xt and the labels y. Use these to calculate two vectors v1; v2, each of size m. Compute the projections of Xt on v1; v2 and use them to create the matrix D of size n x 2.
